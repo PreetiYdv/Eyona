@@ -16,7 +16,7 @@ const OurTeam = () => {
         <div className="container ourProduct_container py-5">
           <Row className="align-items-center justify-content-center justify-content-lg-between">
             <Col lg={6} classname="pb-3 pb-sm-5 pb-lg-0">
-              <h2 className="ff_inter fw-bold fs_6x5l fc_white eyona">
+              <h2 className="ff_inter fw-bold fs_6x5l fc_white eyona mb-5 mb-lg-0">
                 Our Management Team
               </h2>
             </Col>

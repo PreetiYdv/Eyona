@@ -16,7 +16,7 @@ const Eyona = () => {
                 reinventing themselves, people discovering their true potential
                 and creating products to enable industries.
               </h2>
-              <p className="ff_Montserrat fw-medium fs_2xl fc_light mw_993 mt-5">
+              <p className="ff_Montserrat fw-medium fs_2xl fc_light mw_993 mt-md-5 mt-3">
                 To us innovation means: Seeing the bigger picture, striving for
                 better insights, always curious, thinking the unthinkable, the
                 impossible and then making it happen. In other words, we support

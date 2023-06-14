@@ -16,7 +16,7 @@ const JoinTeam = () => {
           the
           <span className="true_magic"> true magic</span> happens!
         </h2>
-        <div className="container Custom_Container pt-5 mt-5">
+        <div className="container Custom_Container pt-md-5 pt-4 mt-xl-5">
           <p
             className="mw_1071 ff_inter fw-normal fs_2xl fc_grey"
             data-aos="fade-right"
@@ -29,7 +29,7 @@ const JoinTeam = () => {
             can’t wait to meet you.
           </p>
           <p
-            className="mw_1071 ff_inter fw-normal fs_2xl fc_grey my-5"
+            className="mw_1071 ff_inter fw-normal fs_2xl fc_grey mb-5 mt-md-5 mt-3"
             data-aos="fade-right"
             data-aos-delay="300"
             data-aos-offset="500"
@@ -53,7 +53,7 @@ const JoinTeam = () => {
       </section>
       <div className="container-fluid pt-3 pt-sm-0 mt_-160">
         <div className="row align-items-center position-relative mt-sm-5 mt-lg-0">
-          <div className="col-lg-6 text-center text-lg-end pb-4 pb-sm-0 mt-5">
+          <div className="col-lg-6 text-center text-lg-end pb-4 pb-sm-0 mt-md-5">
             <span className="fw-bold fs_3xl pe-sm-4 me-lg-5 position-relative z-1">
               <a href="mailto:recruitment@eyona.co" className="fw-bold fc_red">
                 recruitment@eyona.co

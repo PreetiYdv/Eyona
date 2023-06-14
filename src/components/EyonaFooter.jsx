@@ -7,7 +7,7 @@ const EyonaFooter = () => {
     <>
       <footer className="py-5 bg_Slate footer_circle">
         <div className="mt-5 container">
-          <img src={logo} alt="logo" className="mw_324 w-100" />
+          <img src={logo} alt="logo" className="mw_324 w-50" />
           <Row className="py-5 mb-5 justify-content-lg-between">
             <Col lg={4}>
               <h2 className="mb-3 pb-md-1">
@@ -35,13 +35,13 @@ const EyonaFooter = () => {
                   <h2 className="ff_inter fw-normal fs_3x5l fc_white mb-3 pb-md-1">
                     London
                   </h2>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     77 Farringdon Road
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     London
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     EC1m 3JU
                   </p>
                 </Col>
@@ -49,19 +49,19 @@ const EyonaFooter = () => {
                   <h2 className="ff_inter fw-normal fs_3x5l fc_white mb-3 pb-md-1">
                     Cape Town
                   </h2>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     4 Alphons way,
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     Tokai, Cape Town,
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
                     Western Cape 7420, ZA
                   </p>
                 </Col>
               </Row>
             </Col>
-            <div className="mt-2 mb-5 pb-lg-5">
+            <div className="mt-2 mb-sm-5 pb-lg-5">
               <a href="https://in.linkedin.com/">
                 <svg
                   width="29"
@@ -84,7 +84,7 @@ const EyonaFooter = () => {
               </a>
             </div>
           </Row>
-          <p className="my-lg-5 pt-5 ff_inter fw-normal fc_grey fs_xsm">
+          <p className="my-lg-5 pt-md-5 ff_inter fw-normal fc_grey fs_xsm">
             © Copyright – eyona
           </p>
         </div>

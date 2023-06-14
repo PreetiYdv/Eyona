@@ -13,17 +13,17 @@
   --fs-xs: 14px;
   --fs-xsm: 14px;
   --fs-sm: 14px;
-  --fs-2xl: 16px;
+  --fs-2xl: 14px;
   --fs-2x5l: 16px;
   --fs-3xl: 20px;
   --fs-3x5l: 25px;
-  --fs-4xl: 35px;
-  --fs-5xl: 21px;
+  --fs-4xl: 22px;
+  --fs-5xl: 23px;
   --fs-5x5l: 21px;
   --fs-6x5l: 30px;
   --fs-7xl: 35px;
-  --fs-7x5l: 45px;
-  --fs-8x5l: 45px;
+  --fs-7x5l: 50px;
+  --fs-8x5l: 32px;
   --fs-15xl: 45px;
   --fs-20xl: 54px;
   --fs-4x50l: 200px;
@@ -35,6 +35,7 @@
   --fc-black: #161515;
   --fc-Slate: #212024;
   --fc-white: #ffffff;
+  --fc-lighter:#EFEFEF;
   --fc-light: #E2E2E2;
   --fc-red: #BF0404;
   --fc-darkGrey: #58585B;
@@ -146,6 +147,9 @@
 .fc_light {
   color: var(--fc-light);
 }
+.fc_lighter {
+  color: var(--fc-lighter);
+}
 
 .fc_grey {
   color: var(--fc-grey);
@@ -191,7 +195,7 @@
     --fs-6x5l: 65px;
     --fs-7xl: 45px;
     --fs-7x5l: 70px;
-    --fs-8x5l: 80px;
+    --fs-8x5l: 45px;
     --fs-15xl: 90px;
     --fs-20xl: 100px;
     --fs-4x50l: 200px;

@@ -122,7 +122,7 @@ const Trust = () => {
               <img src={diageo_logo} alt="diageo_logo"/>
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={Bacardi_Logo} alt="Bacardi_Logo" className="pe-4 w-100"/>
+              <img src={Bacardi_Logo} alt="Bacardi_Logo" className="pe-4 w-50"/>
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
               <img src={Heineken} alt="Heineken" className="ps-4 w-100"/>
@@ -130,7 +130,7 @@ const Trust = () => {
           </Slider>
           <Slider {...slider2} className="trust_slider py-lg-4">
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={redBull} alt="redBull" className="mt-4 w-100" />
+              <img src={redBull} alt="redBull" className="mt-4 w-50" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
               <img src={PernodRicard} alt="PernodRicard" className="w-100"/>
