@@ -806,7 +806,7 @@ svg:hover path {
         margin-bottom: 0;
     }
 
-    .expert_circle {
+    .expert_circle::after {
         display: none;
     }
 }

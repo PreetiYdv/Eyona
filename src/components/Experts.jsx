@@ -26,7 +26,10 @@ const Experts = () => {
             Eyona are
           </h2>
           <h2 className="ff_inter fw-bold fs_15xl fc_red text-md-end text-center">
-            <span className="world_class">World Class</span> Experts
+            <span className="world_class">
+              World Class 
+            </span>
+             Experts
           </h2>
         </div>
         <div
@@ -39,7 +42,7 @@ const Experts = () => {
           <div className="row align-items-center w-100 mx-0">
             <div className="col-lg-6">
               <p className="fw-normal fs_2x5l fc_grey ff_Montserrat text-center text-sm-start">
-                We create <span className="fc_red fw-bold"> SaaS products</span>{" "}
+                We create <span className="fc_red fw-bold"> SaaS products</span>
                 for markets that have the ability to generate substantial annual
                 recurring revenue (ARR). Leveraging big data and automating
                 matket facing business processes.

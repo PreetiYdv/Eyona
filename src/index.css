@@ -191,7 +191,7 @@
     --fs-7xl: 45px;
     --fs-7x5l: 70px;
     --fs-8x5l: 80px;
-    --fs-15xl: 90px;
+    --fs-15xl: 80px;
     --fs-20xl: 100px;
     --fs-4x50l: 200px;
   }
@@ -204,6 +204,7 @@
     --fs-5x5l: 40px;
     --fs-7xl: 55px;
     --fs-8x5l: 64px;
+    --fs-15xl: 90px;
     --fs-4x50l: 300px;
   }
 }
@@ -239,6 +240,13 @@
 }
 
 @media (min-width:1400px) {
+  :root {
+    /* font-size */
+    --fs-15xl: 100px;
+  }
+}
+
+@media (min-width:1500px) {
   :root {
     /* font-size */
     --fs-xsm: 16px;
