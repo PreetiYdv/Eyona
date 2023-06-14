@@ -63,7 +63,7 @@ const OurProducts = () => {
   };
   return (
     <>
-      <section className="py-5 mt-lg-5">
+      <section className="py-md-5 mt-lg-5">
         <div className="container ourProduct_container">
           <h2
             className="ff_inter fw-bold fs_8x5l text-center fc_Slate"
