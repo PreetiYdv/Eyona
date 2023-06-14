@@ -115,47 +115,47 @@ const Trust = () => {
           data-aos-duration="2000"
         >
           <Slider {...settings} className="trust_slider py-5">
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={mcdonanalds} alt="mcdonanalds" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={diageo_logo} alt="diageo_logo" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
-              <img src={Bacardi_Logo} alt="Bacardi_Logo" />
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
+              <img src={Bacardi_Logo} alt="Bacardi_Logo" className="pe-4"/>
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
-              <img src={Heineken} alt="Heineken" />
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
+              <img src={Heineken} alt="Heineken" className="ps-4"/>
             </div>
           </Slider>
           <Slider {...slider2} className="trust_slider py-5">
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={redBull} alt="redBull" className="mt-5" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={PernodRicard} alt="PernodRicard" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={kfc} alt="kfc" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={Halewood} alt="Halewood" />
             </div>
           </Slider>
           <Slider {...settings} className="trust_slider py-5 mb-5">
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={BeamSuntory} alt="BeamSuntory" className="mt-5" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={sab} alt="sab" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={edrington} alt="edrington" />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img src={burgerKing} alt="burgerKing" className="mt-5 " />
             </div>
-            <div className="p-4 d-flex align-items-center justify-content-center">
+            <div className="p-sm-4 p-2 d-flex align-items-center justify-content-center">
               <img
                 src={campariGroup}
                 alt="campariGroup"

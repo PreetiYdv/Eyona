@@ -35,34 +35,34 @@ const EyonaFooter = () => {
                   <h2 className="ff_inter fw-normal fs_3x5l fc_white mb-3 pb-md-1">
                     London
                   </h2>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     77 Farringdon Road
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     London
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     EC1m 3JU
                   </p>
                 </Col>
-                <Col sm={6} className="mt-5 mt-sm-0">
+                <Col sm={6} className="mt-5 mt-sm-0 position-relative z-2">
                   <h2 className="ff_inter fw-normal fs_3x5l fc_white mb-3 pb-md-1">
                     Cape Town
                   </h2>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     4 Alphons way,
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     Tokai, Cape Town,
                   </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1">
+                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer">
                     Western Cape 7420, ZA
                   </p>
                 </Col>
               </Row>
             </Col>
             <div className="mt-2 mb-5 pb-lg-5">
-              <a href="#">
+              <a href="https://in.linkedin.com/">
                 <svg
                   width="29"
                   height="30"

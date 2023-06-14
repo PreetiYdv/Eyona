@@ -52,14 +52,14 @@ const EyonaHero = () => {
           </div>
           <div className="container flex-grow-1 d-flex flex-column justify-content-center z-1 pb-lg-5 pb-2">
             <Row className="align-items-end justify-content-lg-between">
-              <Col lg={7} className="navText_ove rlay">
-                <ul className="link _overlay p-0 m-0 ff_Montserrat fw-bold fs_7xl fc_white">
-                  <li className="d-block mb-xl-4 mb-2">
+              <Col lg={7}>
+                <ul className="p-0 m-0 ff_Montserrat fw-bold fs_7xl fc_white">
+                  <li className="d-block mb-xl-4 mb-2 nav_links">
                     <a href="#hero" onClick={shownavBar} className="fc_white">
                       Who we are
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2 text-nowrap">
+                  <li className="d-block mb-xl-4 mb-2 nav_links text-nowrap">
                     <a
                       href="#companies"
                       onClick={shownavBar}
@@ -68,29 +68,33 @@ const EyonaHero = () => {
                       Our Companies
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2">
+                  <li className="d-block mb-xl-4 mb-2 nav_links">
                     <a
                       href="#experts"
                       onClick={shownavBar}
-                      className="fc_white"
+                      className="fc_white nav_links"
                     >
                       What we do
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2">
+                  <li className="d-block mb-xl-4 mb-2 nav_links">
                     <a
                       href="#contact"
                       onClick={shownavBar}
-                      className="fc_white"
+                      className="fc_white nav_links"
                     >
                       Contact us
                     </a>
                   </li>
-                  <span>
-                    <a href="#carrer" onClick={shownavBar} className="fc_white">
+                  <li className="d-block mb-xl-4 mb-2 nav_links">
+                    <a
+                      href="#carrer"
+                      onClick={shownavBar}
+                      className="fc_white nav_links"
+                    >
                       Careers
                     </a>
-                  </span>
+                  </li>
                 </ul>
               </Col>
               <Col lg={5} className="mt-lg-0 mt-3">
@@ -190,7 +194,7 @@ const EyonaHero = () => {
                   </Col>
                 </Row>
                 <li className="mt-4">
-                  <a href="">
+                  <a href="https://in.linkedin.com/">
                     <svg
                       width="29"
                       height="29"
@@ -216,12 +220,17 @@ const EyonaHero = () => {
           </div>
         </section>
       </div>
-      <section className="ps-md-5 py-5 position-relative">
-        <div className="heroCircle2 position-absolute rounded-pill"></div>
-        <div className="hero_circle rounded-pill"></div>
+      <section id="hero" className="ps-md-5 py-5 position-relative">
+        <div className="heroCircle2 position-absolute rounded-pill d-sm-block d-none"></div>
+        <div className="hero_circle rounded-pill d-sm-block d-none"></div>
         <div className="hero_Container px-md-5 px-1">
           <div className="d-flex justify-content-between">
-            <img src={header_logo} alt="header_logo" className="mw_149 w-100" />
+            <img
+              id="hero"
+              src={header_logo}
+              alt="header_logo"
+              className="mw_149 w-100 Cursor_Pointer"
+            />
             <div className="d-flex align-items-center gap-md-4 gap-2 position-relative z-2">
               <a
                 href="#"

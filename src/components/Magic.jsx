@@ -17,7 +17,7 @@ const Magic = () => {
               lg={6}
               data-aos="fade-right"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <h2 className="ff_inter fw-bold fs_8x5l fc_Slate mb-4">

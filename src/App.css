@@ -1,3 +1,71 @@
+/* ==== preloader ===== */
+.preloderCounter {
+    color: #ffffff;
+    font-size: var(--fs-4xl);
+    width: 200px;
+    height: 100%;
+}
+
+.preloderbarWidth {
+    width: 600px;
+}
+
+@media (max-width: 1600px) {
+    .preloderbarWidth {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .preloderbarWidth {
+        width: 300px;
+    }
+}
+
+.pre_loading_logo {
+    width: 50%;
+    min-height: 100px;
+    max-width: 180px;
+    animation: pre_loading_logo 2s linear infinite;
+}
+
+@keyframes pre_loading_logo {
+    0% {
+        scale: 0.8;
+    }
+
+    50% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 0.8;
+    }
+}
+
+/* back to top */
+.backToTopArrow svg {
+    height: 20px;
+    width: 20px;
+    fill: var(--fc-light);
+    z-index: 50;
+}
+
+.z_10 {
+    z-index: 10;
+}
+
+.backToTopArrow {
+    background-color: var(--bg-red);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
 .Nav_bg {
     background-color: var(--bg-Slate);
 }
@@ -28,7 +96,14 @@
     transition: all 800ms linear;
     z-index: 8;
     clip-path: circle(0px at calc(100% - 45px) 45px);
+}
 
+.nav_links {
+    transition: all .3s;
+}
+
+.nav_links:hover {
+    transform: translateX(20px);
 }
 
 .showNav {
@@ -184,10 +259,10 @@
 .expert_circle::before {
     content: "";
     position: absolute;
-    width: 1277px;
-    height: 1277px;
+    width: 1177px;
+    height: 1177px;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    right: -50%;
+    right: -700px;
     top: 50px;
     border-radius: 50%;
     z-index: 0;
@@ -211,6 +286,14 @@
     padding: 47px;
     background: var(--bg-Slate);
     box-shadow: 0px 65px 26px rgba(33, 32, 36, 0.01), 0px 37px 22px rgba(33, 32, 36, 0.05), 0px 16px 16px rgba(33, 32, 36, 0.09), 0px 4px 9px rgba(33, 32, 36, 0.1), 0px 0px 0px rgba(33, 32, 36, 0.1);
+}
+
+.black_circle img {
+    transition: all .3s;
+}
+
+.black_circle:hover img {
+    transform: scale(1.1);
 }
 
 .mw_246 {
@@ -248,9 +331,17 @@
     transform: translateY(-30%);
 }
 
+.formGrid_item2:hover {
+    transform: translateY(-30%);
+}
+
 .formGrid_item3 {
     grid-row: 2/6;
     grid-column: 3/4;
+    transform: translateY(-20%);
+}
+
+.formGrid_item3:hover {
     transform: translateY(-20%);
 }
 
@@ -300,12 +391,30 @@
 .grid_item {
     transition: all 200ms linear;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 15px; 
+    position: relative;
+}
+.grid_item::before {
+    content: '';
+    background: rgb(255, 255, 255, 0.4);
+    filter: blur(20px);
+    width: 50%;
+    height: 100%;
+    left: -125%;
+    top: 0%;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left .5s ease-in-out;
 }
 
-.grid_item:hover {
-    transform: scale(1.02);
-    overflow: hidden;
+.grid_item:hover::before {
+    left: 150%;
+}
+
+.grid_item:hover,
+.grid_item:active {
+    color: #fff;
+    box-shadow: 0px -1px 10px 0 #e80b0b;
 }
 
 .mw_1258 {
@@ -339,7 +448,6 @@
 
 .truedata_card:hover {
     box-shadow: 0px 381px 153px rgba(33, 91, 199, 0.01), 0px 215px 129px rgba(33, 91, 199, 0.05), 0px 95px 95px rgba(33, 91, 199, 0.09), 0px 24px 52px rgba(33, 91, 199, 0.1), 0px 0px 0px rgba(33, 91, 199, 0.1);
-
 }
 
 .repforce_card {
@@ -696,6 +804,10 @@ svg:hover path {
     .product_card {
         height: 570px;
         margin-bottom: 0;
+    }
+
+    .expert_circle {
+        display: none;
     }
 }
 

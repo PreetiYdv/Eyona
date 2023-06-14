@@ -20,13 +20,12 @@
   --fs-4xl: 35px;
   --fs-5xl: 21px;
   --fs-5x5l: 21px;
-  --fs-6x5l: 30px;
+  --fs-6x5l: 50px;
   --fs-7xl: 35px;
   --fs-7x5l: 45px;
   --fs-8x5l: 45px;
   --fs-15xl: 50px;
-  --fs-20xl: 65px;
-  --fs-4x50l: 200px;
+  --fs-20xl: 100px;
 
   /* font weight */
   --fw-900: 900;
@@ -186,7 +185,7 @@
     --fs-3xl: 25px;
     --fs-3x5l: 30px;
     --fs-4xl: 35px;
-    --fs-5xl: 45px;
+    --fs-5xl: 38px;
     --fs-5x5l: 32px;
     --fs-6x5l: 65px;
     --fs-7xl: 45px;
@@ -201,21 +200,10 @@
 @media (min-width:992px) {
   :root {
     /* font-size */
-    --fs-xsm: 16px;
     --fs-sm: 18px;
-    --fs-2xl: 16px;
-    --fs-2x5l: 20px;
-    --fs-3xl: 25px;
-    --fs-3x5l: 30px;
-    --fs-4xl: 35px;
-    --fs-5xl: 38px;
     --fs-5x5l: 40px;
-    --fs-6x5l: 65px;
     --fs-7xl: 55px;
-    --fs-7x5l: 70px;
     --fs-8x5l: 64px;
-    --fs-15xl: 90px;
-    --fs-20xl: 100px;
     --fs-4x50l: 300px;
   }
 }
@@ -224,8 +212,6 @@
 @media (min-width:1200px) {
   :root {
     /* font-size */
-    --fs-xsm: 16px;
-    --fs-sm: 18px;
     --fs-2xl: 20px;
     --fs-2x5l: 20px;
     --fs-3xl: 25px;
@@ -233,9 +219,6 @@
     --fs-4xl: 35px;
     --fs-5xl: 45px;
     --fs-5x5l: 48px;
-    --fs-6x5l: 65px;
-    --fs-7xl: 55px;
-    --fs-7x5l: 70px;
     --fs-8x5l: 75px;
     --fs-15xl: 100px;
     --fs-20xl: 150px;

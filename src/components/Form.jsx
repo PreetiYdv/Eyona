@@ -58,7 +58,7 @@ const Form = () => {
                     </a>
                   </p>
                   <span className="linkedin_icon">
-                    <a href="#">
+                    <a href="https://in.linkedin.com/">
                       <svg
                         width="29"
                         height="29"
@@ -144,7 +144,7 @@ const Form = () => {
                     </a>
                   </p>
                   <span className="linkedin_icon">
-                    <a href="#">
+                    <a href="https://in.linkedin.com/">
                       <svg
                         width="29"
                         height="29"

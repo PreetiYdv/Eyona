@@ -33,7 +33,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -57,7 +57,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -81,7 +81,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -105,7 +105,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -129,7 +129,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -153,7 +153,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -177,7 +177,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>
@@ -201,7 +201,7 @@ const OurTeam = () => {
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
-                  <p className="ff_inter fw-normal text-center fc_white fs_14">
+                  <p className="ff_inter fw-normal text-center fc_white fs_14 mb-0">
                     Chief Operations Officer
                   </p>
                 </div>

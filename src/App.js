@@ -2,7 +2,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import EyonaNav from "./components/EyonaNav";
 import EyonaHero from "./components/EyonaHero";
 import JoinTeam from "./components/JoinTeam";
 import Magic from "./components/Magic";
@@ -16,6 +15,8 @@ import OurTeam from "./components/OurTeam";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import LoaderHome from "./components/LoaderHome";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   useEffect(() => {
@@ -23,7 +24,8 @@ function App() {
   }, []);
   return (
     <div className="App overflow-hidden">
-      {/* <EyonaNav /> */}
+      <LoaderHome />
+      <BackToTop />
       <EyonaHero />
       <Eyona />
       <Experts />
