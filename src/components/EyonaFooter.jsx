@@ -7,7 +7,9 @@ const EyonaFooter = () => {
     <>
       <footer className="py-5 bg_Slate footer_circle">
         <div className="mt-5 container">
-          <img src={logo} alt="logo" className="mw_324 w-50" />
+          <a href="#hero"> 
+            <img src={logo} alt="logo" className="mw_324 w-50" />
+          </a>
           <Row className="py-5 mb-5 justify-content-lg-between">
             <Col lg={4}>
               <h2 className="mb-3 pb-md-1">
