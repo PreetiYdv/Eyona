@@ -55,7 +55,7 @@ const JoinTeam = () => {
         <div className="row align-items-center position-relative mt-sm-5 mt-lg-0">
           <div className="col-lg-6 text-center text-lg-end pb-4 pb-sm-0 mt-md-5">
             <span className="fw-bold fs_3xl pe-sm-4 me-lg-5 position-relative z-1">
-              <a href="mailto:recruitment@eyona.co" className="fw-bold fc_red">
+              <a href="mailto:recruitment@eyona.co" className="fw-bold fc_red ff_inter fs_3xl">
                 recruitment@eyona.co
               </a>
             </span>
