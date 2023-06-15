@@ -83,7 +83,7 @@ const Trust = () => {
   };
   return (
     <>
-      <section id="companies" className="py-5">
+      <section id="companies" className="py-5 my-5 px-2">
         <h2
           className="ff_inter fw-bold fs_8x5l fc_Slate text-center mb-3 mw_1071 mx-auto lh_100"
           data-aos="zoom-in"
@@ -95,7 +95,7 @@ const Trust = () => {
           <span className="fc_red"> trust.</span>
         </h2>
         <p
-          className="ff_inter fs_2xl fc_grey text-center fw-normal mb-5 mw_872 mx-auto"
+          className="ff_inter fs_2xl fc_grey text-center fw-normal mb-5 py-lg-5 mw_872 mx-auto lh_40"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-offset="0"

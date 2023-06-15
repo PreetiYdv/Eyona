@@ -12,6 +12,9 @@ const Form = () => {
   const handleShow = () => {
     form.current.classList.add("contactForm");
   };
+  const handleClose = () => {
+    form.current.classList.remove("contactForm");
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -45,7 +48,7 @@ const Form = () => {
                   data-aos-offset="500"
                   data-aos-duration="1000"
                 >
-                  <h2 className="ff_inter fs_7x5l fw-bold fc_white mb-5 contact z-3">
+                  <h2 className="ff_inter fs_7x5l fw-bold fc_white mb-md-5 mb-3 contact z-3">
                     Let’s Talk
                   </h2>
                   <p className="ff_inter fw-normal fs_2xl fc_light mb-3">
@@ -130,7 +133,7 @@ const Form = () => {
           <div className="back side">
             <div className="content">
               <div className=" d-flex justify-content-end mb-5">
-                <span>
+                <span onClick={handleClose}>
                   <svg
                     width="15"
                     height="15"

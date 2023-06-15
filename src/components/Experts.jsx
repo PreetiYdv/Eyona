@@ -81,7 +81,7 @@ const Experts = () => {
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
                 <img src={b2b} alt="b2b" className="w-100" />
               </div>
-              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
+              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate my-lg-4 mt-2">
                 B2B Software
               </h4>
               <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
@@ -99,7 +99,7 @@ const Experts = () => {
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
                 <img src={ecoSystem} alt="eco_system" className="w-100" />
               </div>
-              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
+              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate my-lg-4 mt-2">
                 Eco-system Ownership
               </h4>
               <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
@@ -117,7 +117,7 @@ const Experts = () => {
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
                 <img src={globally} alt="globally" className="w-100" />
               </div>
-              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
+              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate my-lg-4 mt-2">
                 Globally Relevant
               </h4>
               <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
@@ -135,7 +135,7 @@ const Experts = () => {
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
                 <img src={industry} alt="industry" className="w-100" />
               </div>
-              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
+              <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate my-lg-4 mt-2">
                 Industry Specific
               </h4>
               <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">

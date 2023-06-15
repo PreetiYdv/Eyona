@@ -581,9 +581,8 @@
 .send_btn,
 .touch_btn,
 .msg_btn {
-    transition: all .3s linear;
+    transition: all .3s linear !important;
 }
-
 
 svg:hover path {
     fill-opacity: 1;
@@ -863,6 +862,15 @@ svg:hover path {
 
     .map_bg {
         background-size: cover;
+    }
+
+    .form_box {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:1800px) {
+    .me_5{
+        margin-right: 5px;
     }
 }
 

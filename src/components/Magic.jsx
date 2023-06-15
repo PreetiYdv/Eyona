@@ -7,9 +7,9 @@ const Magic = () => {
     <>
       <section id="carrer">
         <div className="container Custom_Container py-5">
-          <Row className="align-items-center">
+          <Row className="align-items-center justify-content-lg-between">
             <Col
-              lg={6}
+              lg={5}
               data-aos="fade-right"
               data-aos-delay="300"
               data-aos-offset="500"

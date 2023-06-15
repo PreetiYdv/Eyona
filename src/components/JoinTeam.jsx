@@ -42,10 +42,6 @@ const JoinTeam = () => {
           </p>
           <button
             className="mb-5 border-0 fs_sm ff_inter fw-bold ls_1 bg_red fc_white msg_btn rounded-pill z-3 position-relative"
-            data-aos="fade-right"
-            data-aos-delay="300"
-            data-aos-offset="500"
-            data-aos-duration="1000"
           >
             Send Us A Message
           </button>

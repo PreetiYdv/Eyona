@@ -218,7 +218,7 @@ const EyonaHero = () => {
                 <img
                   src={laptop}
                   alt="laptop"
-                  className="w-48 m_-30 laptop_img mb-3"
+                  className="w-48 m_-30 laptop_img mb-3 me_5 me_neg8"
                 />
               </div>
               <div className="d-flex gap-3">
@@ -244,7 +244,7 @@ const EyonaHero = () => {
             </Col>
             <Col lg={1} className="d-lg-block d-none"></Col>
             <Col lg={5} className="mt-5 mt-xl-0 position-static z-2">
-              <h2 className="ff_Montserrat fs_5xl fc_black fw-bold lh_70 ">
+              <h2 className="ff_Montserrat fs_5xl fc_black fw-bold lh_70 mb-3">
                 We’re a multi-product company specialising in B2B products.
               </h2>
               <p className="ff_Montserrat fc_darkGrey fw-normal fs_xsm lh_30">

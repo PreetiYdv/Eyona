@@ -66,10 +66,10 @@ const OurProducts = () => {
   };
   return (
     <>
-      <section className="py-md-5 mt-lg-5">
+      <section className="py-md-5 mb-lg-5">
         <div className="container ourProduct_container">
           <h2
-            className="ff_inter fw-bold fs_8x5l text-center fc_Slate mb-3"
+            className="ff_inter fw-bold fs_8x5l text-center fc_Slate mb-4"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-offset="0"
@@ -78,7 +78,7 @@ const OurProducts = () => {
             Our products.
           </h2>
           <p
-            className="ff_inter fw-normal text-center fs_2xl fc_grey mw_872 mx-auto mb-5 pb-lg-5 lh_40"
+            className="ff_inter fw-normal text-center fs_2xl fc_grey mw_872 mx-auto mb-5 pb-lg-4 lh_40"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-offset="0"
