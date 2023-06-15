@@ -30,7 +30,10 @@ const Form = () => {
 
   return (
     <>
-      <section id="contact" className="py-md-5 bg_Slate contact_form">
+      <section
+        id="contact"
+        className="py-md-5 bg_Slate contact_form position-relative"
+      >
         <div ref={form} className="container Custom_Container py-5 my-lg-5">
           <div className="front side">
             <div className="content">
@@ -115,7 +118,7 @@ const Form = () => {
                     ></textarea>
                     <button
                       onClick={handleShow}
-                      className="rounded-pill ff_Montserrat fs_sm border-0 bg_red fc_white send_btn fw-bold ls_1"
+                      className="rounded-pill ff_Montserrat fs_sm border-0 bg_red fc_white send_btn fw-bold ls_1 lh_22"
                     >
                       Send Message
                     </button>
@@ -126,6 +129,26 @@ const Form = () => {
           </div>
           <div className="back side">
             <div className="content">
+              <div className=" d-flex justify-content-end mb-5">
+                <span>
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.76782 0.356445L13.7886 12.4077L12.0209 14.1799L5.52683e-05 2.12869L1.76782 0.356445Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M0.394287 12.0508L12.4151 -0.000478389L14.1829 1.77177L2.16205 13.823L0.394287 12.0508Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+              </div>
               <Row className="align-items-center">
                 <Col lg={6}>
                   <h2 className="ff_inter fw-bold fs_7x5l fc_white mb-5 thankYou">

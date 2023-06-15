@@ -7,7 +7,7 @@ const EyonaFooter = () => {
     <>
       <footer className="py-5 bg_Slate footer_circle">
         <div className="mt-5 container">
-          <a href="#hero"> 
+          <a href="#hero">
             <img src={logo} alt="logo" className="mw_324 w-50" />
           </a>
           <Row className="py-5 mb-5 justify-content-lg-between">
@@ -34,12 +34,7 @@ const EyonaFooter = () => {
                     London
                   </h2>
                   <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
-                    77 Farringdon Road
-                  </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
-                    London
-                  </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
+                    77 Farringdon Road <br /> London <br />
                     EC1m 3JU
                   </p>
                 </Col>
@@ -48,13 +43,8 @@ const EyonaFooter = () => {
                     Cape Town
                   </h2>
                   <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
-                    4 Alphons way,
-                  </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
-                    Tokai, Cape Town,
-                  </p>
-                  <p className="ff_inter fc_white fw-normal fs_xsm mb-1 Cursor_Pointer fc_lighter">
-                    Western Cape 7420, ZA
+                    4 Alphons way, <br /> Tokai, Cape Town, <br /> Western Cape
+                    7420, <br /> ZA
                   </p>
                 </Col>
               </Row>

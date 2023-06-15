@@ -15,7 +15,7 @@
   --fs-sm: 14px;
   --fs-2xl: 14px;
   --fs-2x5l: 16px;
-  --fs-3xl: 20px;
+  --fs-3xl: 19px;
   --fs-3x5l: 25px;
   --fs-4xl: 22px;
   --fs-5xl: 23px;
@@ -25,7 +25,7 @@
   --fs-7x5l: 50px;
   --fs-8x5l: 32px;
   --fs-15xl: 43px;
-  --fs-20xl: 54px;
+  --fs-20xl: 43px;
   --fs-4x50l: 200px;
 
   /* font weight */
@@ -239,6 +239,10 @@
   .lh_100 {
     line-height: 100px;
   }
+
+  .lh_40 {
+    line-height: 40px;
+  }
 }
 
 @media (min-width:1400px) {
@@ -268,4 +272,8 @@
     --fs-20xl: 200px;
     --fs-4x50l: 450px;
   }
+}
+
+.lh_22 {
+  line-height: 22px;
 }

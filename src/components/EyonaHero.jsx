@@ -19,13 +19,17 @@ const EyonaHero = () => {
   return (
     <div className="pb-5 position-relative">
       <div
-        className={toggle ? "showNav myNav  nav_circle" : "myNav  nav_circle"}
+        className={
+          toggle
+            ? "showNav myNav overflow-auto h-100 "
+            : "myNav overflow-auto h-100"
+        }
       >
-        <section className="Nav_bg overflow-auto  vh-100 d-flex flex-column justify-content-center position-relative">
+        <section className="Nav_bg overflow-hidden min-vh-100 nav_circle d-flex flex-column justify-content-center position-relative">
           <div className="d-flex justify-content-between container-fluid px-lg-5 py-5 p-3 z-1">
-            <a href="#home">
+            <span>
               <img src={navlogo} alt="logo" />
-            </a>
+            </span>
             <div
               onClick={shownavBar}
               className="navToggle_btn rounded-pill d-flex justify-content-center align-items-center Cursor_Pointer position-absolute top-0 end-0 mt-5 me-md-5 me-2"
@@ -125,33 +129,9 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat"
                       >
-                        77 Farringdon
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        Road
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        London
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        EC1m 3JU
+                        77 Farringdon <br /> Road <br /> London <br /> EC1m 3JU
                       </a>
                     </p>
                   </Col>
@@ -162,33 +142,9 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat"
                       >
-                        4 Alphons way,
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        Tokai, Cape Town,
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        Western Cape 7420,
-                      </a>
-                    </p>
-                    <p className="mb-sm-2 mb-1">
-                      <a
-                        href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
-                      >
-                        ZA
+                        4 Alphons way, <br /> Tokai, Cape Town, <br /> Western Cape 7420, <br /> ZA
                       </a>
                     </p>
                   </Col>
@@ -220,7 +176,7 @@ const EyonaHero = () => {
           </div>
         </section>
       </div>
-      <section id="hero" className="ps-md-5 py-5 position-relative">
+      <section id="hero" className="ps-md-5 pb-5 pt-md-5 pt-2 position-relative">
         <div className="heroCircle2 position-absolute rounded-pill d-sm-block d-none"></div>
         <div className="hero_circle d-sm-block d-none"></div>
         <div className="hero_Container px-md-5 px-1">
@@ -295,7 +251,7 @@ const EyonaHero = () => {
                 Eyona is a team of dedicated, passionate people building B2B
                 software for the FMCG industry.
               </p>
-              <button className="border-0 fc_white ff_Montserrat fw-bold fs_sm rounded-pill bg_red ls_1 touch_btn">
+              <button className="border-0 fc_white ff_Montserrat fw-bold fs_sm rounded-pill bg_red ls_1 touch_btn lh_22">
                 Get In Touch
               </button>
             </Col>

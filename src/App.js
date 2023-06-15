@@ -25,7 +25,7 @@ function App() {
   }, []);
   return (
     <div className="App overflow-hidden">
-      {/* <LoaderHome /> */}
+      <LoaderHome />
       <BackToTop />
       <EyonaHero />
       <Eyona />

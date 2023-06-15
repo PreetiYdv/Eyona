@@ -39,6 +39,7 @@ const OurProducts = () => {
           centerPadding: 0,
           cssEase: "linear",
           slidesToScroll: 1,
+          dots: true,
         },
       },
       {
@@ -46,15 +47,17 @@ const OurProducts = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
           centerMode: true,
           centerPadding: "70px",
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
           centerMode: true,
           centerPadding: 0,
         },
@@ -66,7 +69,7 @@ const OurProducts = () => {
       <section className="py-md-5 mt-lg-5">
         <div className="container ourProduct_container">
           <h2
-            className="ff_inter fw-bold fs_8x5l text-center fc_Slate"
+            className="ff_inter fw-bold fs_8x5l text-center fc_Slate mb-3"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-offset="0"
@@ -75,7 +78,7 @@ const OurProducts = () => {
             Our products.
           </h2>
           <p
-            className="ff_inter fw-normal text-center fs_2xl fc_grey mw_872 mx-auto mb-5 pb-lg-4"
+            className="ff_inter fw-normal text-center fs_2xl fc_grey mw_872 mx-auto mb-5 pb-lg-5 lh_40"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-offset="0"
@@ -91,7 +94,6 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-right"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
@@ -102,11 +104,11 @@ const OurProducts = () => {
                   className="yellowCircle position-absolute start-0"
                 />
                 <div className="productCard_container">
-                  <img src={truedata} alt="truedata" className="w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate ">
+                  <img src={truedata} alt="truedata" />
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2 ">
                     Data Unifying & Analytics Platform
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Basecamp software to automate the collation, cleaning,
                     integrating and visualising for all of your businesses
                     market facing sales data across all channels.
@@ -123,17 +125,16 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-left"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
               <div className="repforce_card product_card w-100 overflow-hidden">
                 <div className="productCard_container">
                   <img src={repforce} alt="repforce" className=" w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate">
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2">
                     Field Sales Automation Software
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Provides superior field sales routing capability, retail
                     execution management and sales order integration for mobile
                     workforces within businesses.
@@ -150,17 +151,16 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-right"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
               <div className="assetforce_card product_card w-100 overflow-hidden">
                 <div className="productCard_container">
-                  <img src={assetforce} alt="assetforce" className="w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate">
+                  <img src={assetforce} alt="assetforce" className="w-50"/>
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2">
                     Facility & Maintenance Management Software
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Web and mobile-based CMMS software that offers asset
                     management, downtime tracking & workflow automation
                     solutions of businesses.
@@ -177,7 +177,6 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-left"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
@@ -185,14 +184,14 @@ const OurProducts = () => {
                 <img
                   src={lines}
                   alt="easyHr_lines"
-                  className="position-absolute end-0 easyHr_lines w-100"
+                  className="position-absolute end-0 easyHr_lines w-100 d-sm-block d-none"
                 />
                 <div className="productCard_container">
-                  <img src={easyhr} alt="easyhr" className="w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate">
+                  <img src={easyhr} alt="easyhr" />
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2">
                     HR Management Software
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Human resource software solution that combines several
                     systems and processes to manage and optimize daily HR tasks
                     and the overall HR goals of a given organization.
@@ -209,7 +208,6 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-right"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
@@ -217,14 +215,14 @@ const OurProducts = () => {
                 <img
                   src={zoosh_drink}
                   alt="zoosh_drink"
-                  className="position-absolute end-0 bottom-50"
+                  className="position-absolute end-0 bottom-50 mw_100"
                 />
                 <div className="productCard_container">
-                  <img src={zoosh} alt="zoosh" className="w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate">
+                  <img src={zoosh} alt="zoosh" />
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2">
                     Gig Economy for Activations
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Interconnected ecosystem for promotions management. Where
                     brands and agencies promote products and capture consumer
                     feedback and behaviour.
@@ -241,17 +239,16 @@ const OurProducts = () => {
               lg={6}
               className="px-3"
               data-aos="fade-left"
-             
               data-aos-offset="500"
               data-aos-duration="2000"
             >
               <div className="arivu_card product_card w-100 overflow-hidden">
                 <div className="productCard_container">
-                  <img src={arivu_logo} alt="arivu_logo" className="w-50" />
-                  <h2 className="pt-5 ff_inter fw-bold fs_3xl fc_Slate">
+                  <img src={arivu_logo} alt="arivu_logo" />
+                  <h2 className="pt-md-5 pt-3 ff_inter fw-bold fs_3xl fc_Slate mb-lg-4 mb-2">
                     Learning Management Software
                   </h2>
-                  <p className="ff_inter fw-normal fs_xsm fc_grey">
+                  <p className="ff_inter fw-normal fs_xsm fc_grey lh_30">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.

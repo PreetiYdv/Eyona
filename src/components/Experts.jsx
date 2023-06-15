@@ -84,7 +84,7 @@ const Experts = () => {
               <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
                 B2B Software
               </h4>
-              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0">
+              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
                 Our products are at the forefront of industry, creating
                 streamlined processing for your business needs.
               </p>
@@ -102,7 +102,7 @@ const Experts = () => {
               <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
                 Eco-system Ownership
               </h4>
-              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0">
+              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
                 We provide ourselves on making our products easy to use and
                 personalised for your business needs.
               </p>
@@ -120,7 +120,7 @@ const Experts = () => {
               <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
                 Globally Relevant
               </h4>
-              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0">
+              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
                 All our software if fit for purpose and easy to scale across
                 your organisation in any country.
               </p>
@@ -138,7 +138,7 @@ const Experts = () => {
               <h4 className="ff_Montserrat fw-bold fs_4xl fc_Slate mt-lg-3">
                 Industry Specific
               </h4>
-              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0">
+              <p className="ff_Montserrat fw-normal fs_2xl fc_grey max_width_550 mx-auto mx-lg-0 lh_40">
                 Our products are predominately tailored for a specific vertical
                 or industry. We empower domain experts, to ensure you the best
                 results.

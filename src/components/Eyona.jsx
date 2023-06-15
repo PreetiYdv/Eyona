@@ -15,12 +15,12 @@ const Eyona = () => {
             data-aos-duration="2000"
           >
             <Col xs={12} xxl={12} md={10}>
-              <h2 className="ff_Montserrat fw-bold fs_5x5l fc_white mw_1258 position-relative z-2">
+              <h2 className="ff_Montserrat fw-bold fs_5x5l fc_white mw_1258 position-relative z-2 lh_70">
                 It’s our passion. Our business. We love to see our customers
                 reinventing themselves, people discovering their true potential
                 and creating products to enable industries.
               </h2>
-              <p className="ff_Montserrat fw-medium fs_2xl fc_light mw_993 mt-md-5 mt-3">
+              <p className="ff_Montserrat fw-medium fs_2xl fc_light mw_993 mt-md-5 mt-3 lh_40">
                 To us innovation means: Seeing the bigger picture, striving for
                 better insights, always curious, thinking the unthinkable, the
                 impossible and then making it happen. In other words, we support

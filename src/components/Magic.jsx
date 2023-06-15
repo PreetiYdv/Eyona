@@ -1,11 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import grid_img1 from "../assets/images/png/grid_img1.png";
-import Party from "../assets/images/png/gridParty_img.png";
-import team from "../assets/images/png/gridTeam_img.png";
-import typing from "../assets/images/png/gridTyping_img.png";
-import laptop from "../assets/images/png/grid_laptop_img.png";
-import woman_workingLaptop from "../assets/images/png/grid_woman_workingLaptop_img.png";
+import grid_img from "../assets/images/png/magicGrid_img.png";
 
 const Magic = () => {
   return (
@@ -43,34 +38,7 @@ const Magic = () => {
               data-aos-offset="1000"
               data-aos-duration="1000"
             >
-              <div className="grid_container">
-                <div className="grid_item grid_item1">
-                  <img
-                    src={grid_img1}
-                    alt="grid_img1"
-                    className="w-100  mw_150"
-                  />
-                </div>
-                <div className="grid_item grid_item2">
-                  <img
-                    src={woman_workingLaptop}
-                    alt="woman_workingLaptop"
-                    className="w-100 h-100"
-                  />
-                </div>
-                <div className="grid_item grid_item3">
-                  <img src={laptop} alt="laptop" className="w-100 h-100 " />
-                </div>
-                <div className="grid_item grid_item4">
-                  <img src={team} alt="team" className="w-100 h-100" />
-                </div>
-                <div className="grid_item grid_item5">
-                  <img src={Party} alt="party" className="w-100 h-100" />
-                </div>
-                <div className="grid_item grid_item6">
-                  <img src={typing} alt="typing" className="w-100 h-100" />
-                </div>
-              </div>
+              <img src={grid_img} alt="grid_img" className="w-100" />
             </Col>
           </Row>
         </div>

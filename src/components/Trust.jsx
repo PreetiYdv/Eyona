@@ -42,7 +42,7 @@ const Trust = () => {
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -54,7 +54,7 @@ const Trust = () => {
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 8000,
+    speed: 7000,
     pauseOnHover: false,
     cssEase: "linear",
     responsive: [
@@ -150,7 +150,7 @@ const Trust = () => {
               <img src={PernodRicard} alt="PernodRicard" className="w-100" />
             </div>
           </Slider>
-          <Slider {...settings} className="trust_slider py-lg-4 py-2 mb-lg-5 mb-3">
+          <Slider {...settings} className="trust_slider py-lg-4 py-2 mb-5">
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
               <img
                 src={BeamSuntory}
