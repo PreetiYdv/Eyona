@@ -22,13 +22,13 @@ const EyonaHero = () => {
         className={toggle ? "showNav myNav  nav_circle" : "myNav  nav_circle"}
       >
         <section className="Nav_bg overflow-auto  vh-100 d-flex flex-column justify-content-center position-relative">
-          <div className="d-flex justify-content-between container-fluid px-lg-5 py-3 p-3 z-1">
+          <div className="d-flex justify-content-between container-fluid px-lg-5 py-5 p-3 z-1">
             <a href="#home">
               <img src={navlogo} alt="logo" />
             </a>
             <div
               onClick={shownavBar}
-              className="navToggle_btn rounded-pill d-flex justify-content-center align-items-center Cursor_Pointer position-absolute top-0 end-0 mt-3 me-4"
+              className="navToggle_btn rounded-pill d-flex justify-content-center align-items-center Cursor_Pointer position-absolute top-0 end-0 mt-5 me-md-5 me-2"
             >
               <span>
                 <svg
@@ -54,12 +54,12 @@ const EyonaHero = () => {
             <Row className="align-items-end justify-content-lg-between">
               <Col lg={7}>
                 <ul className="p-0 m-0 ff_Montserrat fw-bold fs_7xl fc_white">
-                  <li className="d-block mb-xl-4 mb-2 nav_links">
+                  <li className="d-block mb-xxl-3 mb-xl-2 nav_links">
                     <a href="#hero" onClick={shownavBar} className="fc_white">
                       Who we are
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2 nav_links text-nowrap">
+                  <li className="d-block mb-xxl-3 mb-xl-2 nav_links text-nowrap">
                     <a
                       href="#companies"
                       onClick={shownavBar}
@@ -68,7 +68,7 @@ const EyonaHero = () => {
                       Our Companies
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2 nav_links">
+                  <li className="d-block mb-xxl-3 mb-xl-2 nav_links">
                     <a
                       href="#experts"
                       onClick={shownavBar}
@@ -77,7 +77,7 @@ const EyonaHero = () => {
                       What we do
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2 nav_links">
+                  <li className="d-block mb-xxl-3 mb-xl-2 nav_links">
                     <a
                       href="#contact"
                       onClick={shownavBar}
@@ -86,7 +86,7 @@ const EyonaHero = () => {
                       Contact us
                     </a>
                   </li>
-                  <li className="d-block mb-xl-4 mb-2 nav_links">
+                  <li className="d-block mb-xxl-3 mb-xl-2 nav_links">
                     <a
                       href="#carrer"
                       onClick={shownavBar}
@@ -106,7 +106,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         Terms & Conditions
                       </a>
@@ -114,7 +114,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         Privacy Policy
                       </a>
@@ -125,7 +125,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         77 Farringdon
                       </a>
@@ -133,7 +133,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         Road
                       </a>
@@ -141,7 +141,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         London
                       </a>
@@ -149,7 +149,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         EC1m 3JU
                       </a>
@@ -162,7 +162,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         4 Alphons way,
                       </a>
@@ -170,7 +170,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         Tokai, Cape Town,
                       </a>
@@ -178,7 +178,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         Western Cape 7420,
                       </a>
@@ -186,7 +186,7 @@ const EyonaHero = () => {
                     <p className="mb-sm-2 mb-1">
                       <a
                         href="#"
-                        className="fc_white fs_xsm fw-normal ff_Montserrat"
+                        className="fc_white fs_xsm fw-normal ff_Montserrat link_hover"
                       >
                         ZA
                       </a>
@@ -222,7 +222,7 @@ const EyonaHero = () => {
       </div>
       <section id="hero" className="ps-md-5 py-5 position-relative">
         <div className="heroCircle2 position-absolute rounded-pill d-sm-block d-none"></div>
-        <div className="hero_circle rounded-pill d-sm-block d-none"></div>
+        <div className="hero_circle d-sm-block d-none"></div>
         <div className="hero_Container px-md-5 px-1">
           <div className="d-flex justify-content-between">
             <img

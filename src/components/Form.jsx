@@ -42,7 +42,7 @@ const Form = () => {
                   data-aos-offset="500"
                   data-aos-duration="1000"
                 >
-                  <h2 className="ff_inter fs_7x5l fw-bold fc_white mb-5 contact">
+                  <h2 className="ff_inter fs_7x5l fw-bold fc_white mb-5 contact z-3">
                     Let’s Talk
                   </h2>
                   <p className="ff_inter fw-normal fs_2xl fc_light mb-3">
@@ -115,7 +115,7 @@ const Form = () => {
                     ></textarea>
                     <button
                       onClick={handleShow}
-                      className="rounded-pill border-0 bg_red fc_white send_btn fw-bold ls_1"
+                      className="rounded-pill ff_Montserrat fs_sm border-0 bg_red fc_white send_btn fw-bold ls_1"
                     >
                       Send Message
                     </button>

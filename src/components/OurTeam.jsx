@@ -25,11 +25,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -49,11 +49,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -73,11 +73,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -97,11 +97,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4  mt-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -121,11 +121,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4  mt-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -145,11 +145,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4  mt-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -169,11 +169,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4  mt-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow">
+                <div className="text-adjust-shadow rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>
@@ -193,11 +193,11 @@ const OurTeam = () => {
               className="col-sm-4 col-md-3 col-6 p-xl-4  mt-4"
               data-aos="flip-up"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="1000"
             >
               <div className="image_overlay rounded-pill">
-                <div className="text-adjust-shadow rounded-pill">
+                <div className="text-adjust-shadow rounded-pill rounded-pill">
                   <h3 className="ff_inter fw-bold fs_2xl text-center fc_white mb-2">
                     Stephan Du Toit
                   </h3>

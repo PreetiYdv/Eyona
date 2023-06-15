@@ -18,15 +18,11 @@ const EyonaFooter = () => {
                   contact@eyona.co
                 </a>
               </h2>
-              <p className="mb-1">
-                <a href="#" className="ff_inter fc_white fw-normal fs_xsm">
-                  Terms & Conditions
-                </a>
+              <p className="mb-1 ff_inter fc_white fw-normal fs_xsm Cursor_Pointer">
+                <span className="link_hover">Terms & Conditions</span>
               </p>
-              <p className="mb-1">
-                <a href="#" className="ff_inter fc_white fw-normal fs_xsm">
-                  Privacy Policy
-                </a>
+              <p className="mb-1 ff_inter fc_white fw-normal fs_xsm Cursor_Pointer">
+                <span className="link_hover"> Privacy Policy</span>
               </p>
             </Col>
             <Col lg={6} className="mt-5 mt-lg-0">
@@ -61,7 +57,7 @@ const EyonaFooter = () => {
                 </Col>
               </Row>
             </Col>
-            <div className="mt-2 mb-sm-5 pb-lg-5">
+            <div className="mt-2 mb-sm-5 pb-lg-5 position-relative z-2">
               <a href="https://in.linkedin.com/">
                 <svg
                   width="29"

@@ -16,15 +16,14 @@ import campariGroup from "../assets/images/png/campariGroup.png";
 
 const Trust = () => {
   var settings = {
-    dots: false,
-    infinite: true,
-    speed: 3000,
-    autoplaySpeed: 0,
-    autoplay: true,
     arrows: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 8000,
+    pauseOnHover: false,
     cssEase: "linear",
-    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1400,
@@ -34,31 +33,30 @@ const Trust = () => {
         },
       },
       {
-        breakpoint: 1200,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 992,
+        breakpoint: 576,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
     ],
   };
   var slider2 = {
-    dots: false,
-    infinite: true,
-    speed: 2000,
-    autoplaySpeed: 0,
-    autoplay: true,
     arrows: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 8000,
+    pauseOnHover: false,
     cssEase: "linear",
-    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1400,
@@ -68,16 +66,16 @@ const Trust = () => {
         },
       },
       {
-        breakpoint: 1200,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 992,
+        breakpoint: 576,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -114,18 +112,25 @@ const Trust = () => {
           data-aos-offset="0"
           data-aos-duration="2000"
         >
-          <Slider {...settings} className="trust_slider py-lg-4">
+          <Slider {...settings} className="trust_slider py-lg-4 py-2">
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={mcdonanalds} alt="mcdonanalds"  />
+              <img src={mcdonanalds} alt="mcdonanalds" className="pb-3 mw_79" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={diageo_logo} alt="diageo_logo"/>
+              <img src={diageo_logo} alt="diageo_logo" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={Bacardi_Logo} alt="Bacardi_Logo" className="pe-4 w-50"/>
+              <img
+                src={Bacardi_Logo}
+                alt="Bacardi_Logo"
+                className="pe-4 w-50"
+              />
+            </div>
+            <div className="p-sm-4 p-1 text-center d-flex align-items-center justify-content-center">
+              <img src={Heineken} alt="Heineken" className="ps-4 w-50" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={Heineken} alt="Heineken" className="ps-4 w-100"/>
+              <img src={diageo_logo} alt="diageo_logo" />
             </div>
           </Slider>
           <Slider {...slider2} className="trust_slider py-lg-4">
@@ -133,24 +138,31 @@ const Trust = () => {
               <img src={redBull} alt="redBull" className="mt-4 w-50" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={PernodRicard} alt="PernodRicard" className="w-100"/>
+              <img src={PernodRicard} alt="PernodRicard" className="w-100" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={kfc} alt="kfc"/>
+              <img src={kfc} alt="kfc" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={Halewood} alt="Halewood" className="w-100"/>
+              <img src={Halewood} alt="Halewood" className="w-50 mt-2" />
+            </div>
+            <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
+              <img src={PernodRicard} alt="PernodRicard" className="w-100" />
             </div>
           </Slider>
-          <Slider {...settings} className="trust_slider py-lg-4 mb-lg-5">
+          <Slider {...settings} className="trust_slider py-lg-4 py-2 mb-lg-5 mb-3">
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={BeamSuntory} alt="BeamSuntory" className="mt-5" />
+              <img
+                src={BeamSuntory}
+                alt="BeamSuntory"
+                className="mt-5 w-100 pt-4"
+              />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={sab} alt="sab" />
+              <img src={sab} alt="sab" className="mt-5 mw_79" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
-              <img src={edrington} alt="edrington" />
+              <img src={edrington} alt="edrington" className="w-50 mt-5" />
             </div>
             <div className="p-sm-4 p-1 d-flex align-items-center justify-content-center">
               <img src={burgerKing} alt="burgerKing" className="mt-5 " />

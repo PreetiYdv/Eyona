@@ -26,10 +26,8 @@ const Experts = () => {
             Eyona are
           </h2>
           <h2 className="ff_inter fw-bold fs_15xl fc_red text-md-end text-center">
-            <span className="world_class">
-              World Class 
-            </span>
-             Experts
+            <span className="world_class">World Class </span>
+            Experts
           </h2>
         </div>
         <div
@@ -42,7 +40,8 @@ const Experts = () => {
           <div className="row align-items-center w-100 mx-0">
             <div className="col-lg-6">
               <p className="fw-normal fs_2x5l fc_grey ff_Montserrat text-center text-sm-start">
-                We create <span className="fc_red fw-bold"> SaaS products</span>
+                We create{" "}
+                <span className="fc_red fw-bold"> SaaS products </span>
                 for markets that have the ability to generate substantial annual
                 recurring revenue (ARR). Leveraging big data and automating
                 matket facing business processes.
@@ -76,7 +75,7 @@ const Experts = () => {
               className="col-lg-5 text-center text-lg-start col-12 col-md-6 px-3"
               data-aos="fade-right"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="600"
             >
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
@@ -94,7 +93,7 @@ const Experts = () => {
               className="col-lg-5 text-center text-lg-start col-12 col-md-6 mt-lg-5 pt-lg-5 px-3"
               data-aos="fade-left"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="600"
             >
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
@@ -112,7 +111,7 @@ const Experts = () => {
               className="col-lg-5 text-center text-lg-start col-12 col-md-6 mt-sm-5 px-3"
               data-aos="fade-right"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="600"
             >
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">
@@ -130,7 +129,7 @@ const Experts = () => {
               className="col-lg-5 text-center text-lg-start col-12 col-md-6 mt-sm-5 pt-lg-5 px-3"
               data-aos="fade-left"
               data-aos-delay="300"
-              data-aos-offset="1000"
+              data-aos-offset="500"
               data-aos-duration="600"
             >
               <div className="black_circle rounded-pill d-flex justify-content-center align-items-center mx-auto mx-lg-0 mb-4">

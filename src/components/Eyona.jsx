@@ -4,10 +4,14 @@ import { Col, Row } from "react-bootstrap";
 const Eyona = () => {
   return (
     <>
-      <section className="bg_red py-5 overflow-hidden vh_100 d-flex">
+      <section className="bg_red py-5 overflow-hidden vh_100 d-flex position-relative">
+        <div className="eyona_circle"></div>
         <div className="container eyona_Container position-relative py-lg-5 d-flex align-items-center py-lg-5 my-md-5">
           <Row
-            className="align-items-center" data-aos="zoom-in-down" data-aos-delay="300" data-aos-offset="0"
+            className="align-items-center"
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            data-aos-offset="0"
             data-aos-duration="2000"
           >
             <Col xs={12} xxl={12} md={10}>
